@@ -34,7 +34,7 @@ Note: The servers Web-1, Web-2, and Web-3 are all DVWA Containers.
 
 | Name          | Function | IP Address | Operating System |
 |---------------|----------|---------------------------------|------------------|
-| Jump Box      | Gateway  | 40.88.33.94  10.0.0.4   | Linux            |
+| Jump Box      | Gateway  | 40.88.33.94 / 10.0.0.4   | Linux            |
 | Web-1         | Server   | 10.0.0.5   | Linux            |
 | Web-2         | Server   | 10.0.0.6   | Linux            |
 | Web-3         | Server   | 10.0.0.10  | Linux            |
