@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 ![ELK Diagram](https://github.com/blackrhinoceros/PennSecurity/blob/main/Diagrams/ELK2.png)
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _/etc/ansible/yml_playbooks/install-elk.yml_  file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above, or, select portions of the _/etc/ansible/yml_playbooks/install-elk.yml_  file may be used to install only certain pieces of it, such as Filebeat.
 
 
 This document contains the following details:
@@ -33,8 +33,8 @@ The configuration details of each machine may be found below.
 Note: The servers Web-1, Web-2, and Web-3 are all DVWA Containers.
 
 | Name          | Function | IP Address | Operating System |
-|---------------|----------|------------|------------------|
-| Jump Box      | Gateway  | 10.0.0.4   | Linux            |
+|---------------|----------|-------------------------|------------------|
+| Jump Box      | Gateway  | 40.33.88.94  10.0.0.4   | Linux            |
 | Web-1         | Server   | 10.0.0.5   | Linux            |
 | Web-2         | Server   | 10.0.0.6   | Linux            |
 | Web-3         | Server   | 10.0.0.10  | Linux            |
