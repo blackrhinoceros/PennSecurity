@@ -79,7 +79,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-/Users/vondon/Desktop/Screenshots_for_Project1/sudo_docker_ps_screenshot.png
+![docker_ps](/Users/vondon/Desktop/Screenshots_for_Project1/sudo_docker_ps_screenshot.png)
 
 
 
