@@ -5,6 +5,8 @@
 The files in this repository were used to configure the network depicted below.
 
 
+
+
 ![ELK Diagram](https://github.com/blackrhinoceros/PennSecurity/blob/main/Diagrams/ELK2.png)
 
 
@@ -48,7 +50,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-_PUBLIC IP Address from home terminal_
+_PUBLIC IP Address from the home terminal_
 
 Machines within the network can only be accessed by the Jump Box Provisioner: Public IP 40.88.33.94 , VNET IP 10.0.0.4
 
@@ -111,7 +113,7 @@ SSH into the control node and follow the steps below:
 
 ```[elk]```
 
-```<YOUR.ELK.PRIVATE.IP> ansible_python_interpreter=/usr/bin/python3 ``` 
+```<your.ELK.private.ip> ansible_python_interpreter=/usr/bin/python3 ``` 
 
 ![hosts_file](https://github.com/blackrhinoceros/PennSecurity/blob/main/Images/hosts_file_screenshot.png)
 
@@ -119,5 +121,5 @@ SSH into the control node and follow the steps below:
 
 * Run the playbook:
 ``` ansible-playbook filebeat-playbook.yml ```
-* Navigate to ```http://<YOUR.ELK.PUBLIC.IP>:5601/app/kibana``` to check that the installation worked as expected.
+* Navigate to ```http://<your.ELK.public.ip>:5601/app/kibana``` to check that the installation worked as expected.
 
