@@ -113,7 +113,7 @@ SSH into the control node and follow the steps below:
 
 ```<YOUR.ELK.PRIVATE.IP> ansible_python_interpreter=/usr/bin/python3 ``` 
 
-![hosts_file] (https://github.com/blackrhinoceros/PennSecurity/blob/main/Images/hosts_file_screenshot.png)
+![hosts_file](https://github.com/blackrhinoceros/PennSecurity/blob/main/Images/hosts_file_screenshot.png)
 
 * When using the playbook for installing ELK, it will refer to the _[elk]_ section of the _hosts_ file. When using the playbook for installing Filebeats, it will refer to the _[webservers]_ section of the host file.
 
