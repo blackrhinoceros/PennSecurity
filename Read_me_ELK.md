@@ -106,13 +106,14 @@ SSH into the control node and follow the steps below:
 
 ```curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > /etc/ansible/files/filebeat-config.yml ```
 
-- Edit the _/etc/ansible/hosts_ file to include the following lines, immediately below your listing of _[webservers]_. Under _[elk]_, insert the private (internal, VNET) IP of your ELK server. 
+- Edit the _/etc/ansible/hosts_ file to include the following lines, immediately below your listing of _[webservers]_. Under _[elk]_, insert the private (internal, VNET) IP of your ELK server:
 
 ```[elk]```
 
 ```<YOUR.ELK.PRIVATE.IP> ansible_python_interpreter=/usr/bin/python3 ``` 
 
-/Users/vondon/Desktop/Screenshots_for_Project1/:etc:ansible:hosts_file_screenshot.png
+![hosts_file] (https://github.com/blackrhinoceros/PennSecurity/blob/main/Images/hosts_file_screenshot.png)
+
 * When using the playbook for installing ELK, it will refer to the _[elk]_ section of the _hosts_ file. When using the playbook for installing Filebeats, it will refer to the _[webservers]_ section of the host file.
 
 * Run the playbook:
