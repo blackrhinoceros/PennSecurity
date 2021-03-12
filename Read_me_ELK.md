@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/blackrhinoceros/PennSecurity/blob/main/Diagrams/ELK2.png)
+[ELK Diagram] https://github.com/blackrhinoceros/PennSecurity/blob/main/Diagrams/ELK2.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _/etc/ansible/yml_playbooks/install-elk.yml_  file may be used to install only certain pieces of it, such as Filebeat.
 
