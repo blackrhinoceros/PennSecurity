@@ -55,12 +55,12 @@ Machines within the network can only be accessed by the Jump Box Provisioner: Pu
 A summary of the access policies in place can be found in the table below.
 
 | Name       | Publicly Accessible | Allowed IP Addresses |
-|------------|---------------------|----------------------|
+|------------|---------------------|----------------------------|
 | Jump Box   | Yes/No              | Home IP              |
 | Web-1      | No                  | 10.0.0.4             |
 | Web-2      | No                  | 10.0.0.4             |
 | Web-3      | No                  | 10.0.0.4             |
-| PurpleELK  | No                  | 10.0.0.4             |
+| PurpleELK  | No                  | 20.57.161.201 / 10.0.0.4             |
 
 
 
